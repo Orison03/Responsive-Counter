@@ -1,0 +1,73 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+     height: 100vh;
+     background-color: silver;
+}
+
+main{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.container h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+#value{
+    font-size: 5rem;
+    margin: 3em 0 7em 0;
+    font-weight: 800;
+}
+
+.allButtons{
+    display: flex;
+}
+
+.btn{
+    margin-top: 3em;
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: .5em .9em;
+    font-size: 1rem;
+    letter-spacing: .9px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.box{
+    margin-left: .8em;  
+}
+
+@media (min-width: 760px){
+    .box{
+    margin-left: 2em;  
+}
+
+.btn{
+    font-size: 1.5rem;
+}
+
+.container h2{
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
+}
+
+
